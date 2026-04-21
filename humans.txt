@@ -1,0 +1,16 @@
+# humans.txt for St. Mary's Kibabii Boys National School
+
+/* TEAM */
+    Developer: School Website Development Team
+    Contact: admin@stmaryskibabii.ac.ke
+    Location: Bungoma, Kenya
+
+/* THANK YOU */
+    St. Mary's Kibabii Boys National School Administration
+    Kibabiians Development Association (KIDA)
+    All teachers, staff, and students
+
+/* SITE */
+    Last update: 2026-04-20
+    Standards: HTML5, CSS3, JavaScript ES6
+    Components: AOS, Lightbox, Typed.js, Canvas Confetti

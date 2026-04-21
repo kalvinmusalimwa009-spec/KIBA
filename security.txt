@@ -1,0 +1,6 @@
+# security.txt for St. Mary's Kibabii Boys National School
+Contact: mailto:admin@stmaryskibabii.ac.ke
+Contact: tel:+254734741162
+Expires: 2027-04-20T00:00:00.000Z
+Preferred-Languages: en, sw
+Canonical: https://www.stmaryskibabii.ac.ke/.well-known/security.txt

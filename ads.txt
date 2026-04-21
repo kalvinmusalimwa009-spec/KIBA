@@ -1,0 +1,9 @@
+# ads.txt for St. Mary's Kibabii Boys National School (Kiba)
+# This file is for Google AdSense authorization
+# Replace with your actual Google AdSense publisher ID when approved
+
+# Google AdSense
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+
+# Contact information for ad inventory inquiries
+contact=mailto:admin@stmaryskibabii.ac.ke

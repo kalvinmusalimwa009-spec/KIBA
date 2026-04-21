@@ -1,0 +1,142 @@
+{
+    "alumni": [
+        {
+            "id": 1,
+            "name": "Ken Lusaka",
+            "image": "images/KENNETH LUSAKA.jpg.jpg",
+            "graduation_year": "1982",
+            "position": "Governor, Bungoma County",
+            "achievement": "Former Speaker of the Bungoma County Assembly. Veteran politician and administrator.",
+            "category": "Politics & Government"
+        },
+        {
+            "id": 2,
+            "name": "Wafula Wamunyinyi",
+            "image": "images/alumni/wafula-wamunyinyi.jpg",
+            "graduation_year": "1983",
+            "position": "Member of Parliament, Kanduyi Constituency",
+            "achievement": "Senior politician and former Minister for East African Community Affairs.",
+            "category": "Politics & Government"
+        },
+        {
+            "id": 3,
+            "name": "Tim Wanyonyi",
+            "image": "images/HON._TIM_WANYONYI.jpg",
+            "graduation_year": "1986",
+            "position": "Member of Parliament, Westlands Constituency",
+            "achievement": "Prominent Nairobi politician and advocate for urban development.",
+            "category": "Politics & Government"
+        },
+        {
+            "id": 4,
+            "name": "Boniface otsuka",
+            "image" :"images/alumni/boniface-otsyula.jpg",
+            "graduation_year": "1987",
+            "position": "Member of Parliament, Bumula Constituency",
+            "achievement": "Legislator focused on agricultural reform and youth empowerment.",
+            "category": "Politics & Government"
+        },
+        {
+            "id": 5,
+            "name": "Prof. Simiyu Wandibba",
+            "image": "images/prof simiyu.jpg",
+            "graduation_year": "1978",
+            "position": "Professor of Anthropology, University of Nairobi",
+            "achievement": "Renowned anthropologist and author of multiple books on Kenyan cultures.",
+            "category": "Academia"
+        },
+        {
+            "id": 6,
+            "name": "Prof. Cornelius Wanjala",
+            "image": "images/alumni/prof-cornelius-wanjala.jpg",
+            "graduation_year": "1984",
+            "position": "Head of Chemistry, South Eastern Kenya University",
+            "achievement": "Published researcher in computational chemistry with over 50 papers.",
+            "category": "Academia"
+        },
+        {
+            "id": 7,
+            "name": "Dr. Moses Sichei",
+            "image": "images/Dr. Moses Sichei.jpg",
+            "graduation_year": "1985",
+            "position": "Consultant, United Nations Development Programme (UNDP)",
+            "achievement": "International development expert specializing in health systems.",
+            "category": "International Development"
+        },
+        {
+            "id": 8,
+            "name": "Wafula Buke",
+            "image": "images/wafula buke.jpg",
+            "graduation_year": "1990",
+            "position": "Director of Strategy and Political Affairs, ODM Party",
+            "achievement": "Key strategist in Kenyan national politics.",
+            "category": "Politics & Government"
+        },
+       
+        {
+            "id": 10,
+            "name": "Benard Mang'oli",
+            "image": "images/benard.jpg",
+            "graduation_year": "2015",
+            "position": "Professional Footballer, AFC Leopards",
+            "achievement": "Key midfielder in the Kenyan Premier League.",
+            "category": "Sports"
+        },
+        {
+            "id": 11,
+            "name": "Dr. Peter Wanyama",
+            "image": "images/Dr peter wanyama.jpg",
+            "graduation_year": "1995",
+            "position": "Senior Surgeon, Moi Teaching and Referral Hospital",
+            "achievement": "Pioneering cardiothoracic surgeon.",
+            "category": "Medicine"
+        },
+               {
+            "id": 12,
+            "name": "Hon. Chris Wamalwa",
+            "image": "images/alumni/chris-wamalwa.jpg",
+            "graduation_year": "1989",
+            "position": "Member of Parliament, Kiminini Constituency",
+            "achievement": "Outspoken legislator on health and education reforms.",
+            "category": "Politics & Government"
+        },
+        {
+            "id": 13,
+            "name": "images/wamalwa.jpg",
+            "image": "images/alumni/prof-francis-njeru.jpg",
+            "graduation_year": "1981",
+            "position": "Professor of Economics, University of Nairobi",
+            "achievement": "Leading economist and policy advisor to the Kenyan government.",
+            "category": "Academia"
+        },
+       
+       
+        {
+            "id": 18,
+            "name": "Dr. Benson Masika",
+            "image": "images/alumni/dr-benson-masika.jpg",
+            "graduation_year": "1993",
+            "position": "Senior Lecturer, Kibabii University",
+            "achievement": "Pioneered AI research programs at Kibabii University.",
+            "category": "Academia"
+        },
+        {
+            "id": 19,
+            "name": "Capt. David Were",
+            "image": "images/alumni/capt-david-were.jpg",
+            "graduation_year": "1996",
+            "position": "Pilot, Kenya Airways",
+            "achievement": "First alumnus to become a commercial airline captain.",
+            "category": "Aviation"
+        },
+        {
+            "id": 20,
+            "name": "Paul Nakitare",
+            "image": "images/alumni/paul-nakitare.jpg",
+            "graduation_year": "2005",
+            "position": "Head Coach, Kakamega Homeboyz",
+            "achievement": "Led team to Kenyan Premier League title in 2023.",
+            "category": "Sports"
+        }
+    ]
+}

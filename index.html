@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>St. Mary's Kibabii Boys National School | Kiba National School Bungoma</title>
+    <meta name="description" content="St. Mary's Kibabii Boys National School (Kiba) - Premier National School in Bungoma County. Excellence in KCSE, KSEF Science Fair, and co-curricular activities.">
+    <meta name="keywords" content="Kiba, Kibabii, St Mary's Kibabii, National School Bungoma, KCSE Performance, KSEF Champions">
+    <meta name="author" content="St. Mary's Kibabii Boys National School">
+    <link rel="canonical" href="https://www.stmaryskibabii.ac.ke/">
+    
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1"></script>
+</head>
+<body>
+
+    <!-- Animated Canvas Background -->
+    <canvas id="bgCanvas"></canvas>
+
+    <!-- Preloader -->
+    <div id="preloader"><div class="loader"></div></div>
+    <script>
+        (function() {
+            function hidePreloader() {
+                var preloader = document.getElementById("preloader");
+                if (preloader) {
+                    preloader.style.transition = "opacity 0.5s ease";
+                    preloader.style.opacity = "0";
+                    setTimeout(function() { preloader.style.display = "none"; }, 500);
+                }
+            }
+            if (document.readyState === "complete") hidePreloader();
+            else window.addEventListener("load", hidePreloader);
+            setTimeout(hidePreloader, 2500);
+        })();
+    </script>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Dark/Light Mode Toggle -->
+    <button id="theme-toggle" class="theme-toggle"><i class="fas fa-moon"></i></button>
+
+    <!-- Floating Action Button -->
+    <div class="fab-container">
+        <button class="fab-main" id="fabMain"><i class="fas fa-headset"></i></button>
+        <div class="fab-options">
+            <a href="tel:0734741162" class="fab-option"><i class="fas fa-phone-alt"></i> Call</a>
+            <a href="sms:0734741162" class="fab-option"><i class="fas fa-sms"></i> SMS</a>
+            <a href="https://wa.me/254734741162" class="fab-option"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            <a href="contact.html" class="fab-option"><i class="fas fa-envelope"></i> Email</a>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo"><i class="fas fa-church"></i> <span>St. Mary's Kibabii</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="leadership.html">Leadership</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="co-curricular.html">Co-Curricular</a></li>
+                <li><a href="transport.html">Transport</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="alumni.html">Alumni</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="kida.html">KIDA</a></li>
+                <li><a href="anthem.html">Anthem</a></li>
+                <li><a href="prayer.html">Prayers</a></li>
+                <li><a href="calendar.html">Calendar</a></li>
+                <li><a href="downloads.html">Downloads</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="parallax-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">St. Mary's Kibabii<br><span class="typing-wrapper"></span></h1>
+            <p class="hero-motto">Orare et Laborare</p>
+            <p class="hero-tagline">Pray and Work - Excellence, Integrity, Service</p>
+            <div class="hero-badges">
+                <span class="badge"><i class="fas fa-star"></i> National School</span>
+                <span class="badge"><i class="fas fa-flask"></i> KSEF Champions</span>
+                <span class="badge"><i class="fas fa-futbol"></i> Western Giants</span>
+                <span class="badge"><i class="fas fa-school"></i> Known as "Kiba"</span>
+            </div>
+            <div class="countdown-container" id="countdownContainer">
+                <div class="countdown-label">Next Event: Alumni Homecoming 2025</div>
+                <div class="countdown-timer">
+                    <div class="countdown-block"><span id="days">00</span><span class="countdown-unit">Days</span></div>
+                    <div class="countdown-block"><span id="hours">00</span><span class="countdown-unit">Hours</span></div>
+                    <div class="countdown-block"><span id="minutes">00</span><span class="countdown-unit">Mins</span></div>
+                    <div class="countdown-block"><span id="seconds">00</span><span class="countdown-unit">Secs</span></div>
+                </div>
+            </div>
+            <a href="about.html" class="btn-primary">Discover More <i class="fas fa-arrow-down"></i></a>
+        </div>
+    </section>
+
+    <!-- Gate Section -->
+    <section class="section">
+        <div class="container">
+            <div class="gate-container" data-aos="fade-up">
+                <div class="gate-image">
+                    <img src="images/schools gate.jpg" alt="School Main Gate" onerror="this.src='https://via.placeholder.com/800x500/0a2f2b/f5c542?text=School+Gate'">
+                    <div class="gate-overlay"><span class="gate-text">The Gateway to Excellence</span></div>
+                </div>
+                <div class="gate-content">
+                    <h3>Welcome to St. Mary's Kibabii</h3>
+                    <p>The main entrance of St. Mary's Kibabii Boys National School (affectionately known as <strong>"Kiba"</strong>) symbolizes our commitment to nurturing young men of integrity, discipline, and academic excellence. As you pass through these gates, you embark on a journey of transformation and achievement.</p>
+                    <div class="gate-quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Education is the most powerful weapon which you can use to change the world.</p>
+                        <i class="fas fa-quote-right"></i>
+                        <span>- Nelson Mandela</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">School at a <span>Glance</span></h2>
+            <div class="about-stats">
+                <div class="stat-card"><i class="fas fa-calendar-alt"></i> <span class="stat-number" data-target="1952">0</span><p>Established</p></div>
+                <div class="stat-card"><i class="fas fa-users"></i> <span class="stat-number" data-target="1600">0</span><p>Students</p></div>
+                <div class="stat-card"><i class="fas fa-chalkboard-user"></i> <span class="stat-number" data-target="85">0</span><p>Teaching Staff</p></div>
+                <div class="stat-card"><i class="fas fa-trophy"></i> <span class="stat-number" data-target="25">0</span><p>National Awards</p></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <p>2026 St. Mary's Kibabii Boys National School (Kiba) | National School | Orare et Laborare</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>

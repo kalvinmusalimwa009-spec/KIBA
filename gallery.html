@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+    <title>Photo Gallery | St. Mary's Kibabii Boys National School | Kiba Campus Photos</title>
+    <meta name="description" content="Photo gallery of St. Mary's Kibabii Boys National School (Kiba) - Facilities, events, and activities.">
+    <meta name="keywords" content="Kiba Photos, Kibabii School Gallery, St Mary's Kibabii Boys National School">
+    <meta name="author" content="St. Mary's Kibabii Boys National School">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.stmaryskibabii.ac.ke/gallery.html">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="bgCanvas"></canvas>
+
+    <div id="preloader"><div class="loader"></div></div>
+    <script>(function(){function h(){var p=document.getElementById("preloader");if(p){p.style.transition="opacity 0.5s ease";p.style.opacity="0";setTimeout(function(){p.style.display="none"},500)}}if(document.readyState==="complete")h();else window.addEventListener("load",h);setTimeout(h,2500)})();</script>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <button id="theme-toggle" class="theme-toggle"><i class="fas fa-moon"></i></button>
+
+    <div class="fab-container">
+        <button class="fab-main" id="fabMain"><i class="fas fa-headset"></i></button>
+        <div class="fab-options">
+            <a href="tel:0734741162" class="fab-option"><i class="fas fa-phone-alt"></i> Call</a>
+            <a href="sms:0734741162" class="fab-option"><i class="fas fa-sms"></i> SMS</a>
+            <a href="https://wa.me/254734741162" class="fab-option"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            <a href="contact.html" class="fab-option"><i class="fas fa-envelope"></i> Email</a>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo"><i class="fas fa-church"></i> St. Mary's Kibabii</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="leadership.html">Leadership</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="co-curricular.html">Co-Curricular</a></li>
+                <li><a href="transport.html">Transport</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="alumni.html">Alumni</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="kida.html">KIDA</a></li>
+                <li><a href="anthem.html">Anthem</a></li>
+                <li><a href="prayer.html">Prayers</a></li>
+                <li><a href="calendar.html">Calendar</a></li>
+                <li><a href="downloads.html">Downloads</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            <h1>Photo <span>Gallery</span></h1>
+            <p>Moments and Memories at St. Mary's Kibabii (Kiba)</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- School Gate Image -->
+                <div class="gallery-item-wrapper" data-aos="zoom-in">
+                    <a href="images/schools gate.jpg" data-lightbox="gallery" data-title="The Gateway to Excellence - St. Mary's Kibabii Main Entrance" class="gallery-item">
+                        <img src="images/schools gate.jpg" alt="Kiba School Main Gate" onerror="this.src='https://via.placeholder.com/400x300/0a2f2b/f5c542?text=School+Gate'">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span class="gallery-caption">The Gateway to Excellence</span>
+                        </div>
+                    </a>
+                    <div class="image-comment">
+                        <i class="fas fa-comment-dots"></i>
+                        <p>The magnificent main entrance of St. Mary's Kibabii Boys National School, welcoming students and visitors to a journey of academic excellence and spiritual growth.</p>
+                    </div>
+                </div>
+                
+                <!-- School Bus Image -->
+                <div class="gallery-item-wrapper" data-aos="zoom-in" data-aos-delay="100">
+                    <a href="images/school bus.jpg" data-lightbox="gallery" data-title="Safe and Reliable Transport - Kiba School Bus" class="gallery-item">
+                        <img src="images/school bus.jpg" alt="Kiba School Bus" onerror="this.src='https://via.placeholder.com/400x300/0a2f2b/f5c542?text=School+Bus'">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span class="gallery-caption">Safe and Reliable Transport</span>
+                        </div>
+                    </a>
+                    <div class="image-comment">
+                        <i class="fas fa-comment-dots"></i>
+                        <p>Our modern school bus fleet ensures safe and comfortable transportation for students across Bungoma County and surrounding areas, with trained drivers and matrons on every trip.</p>
+                    </div>
+                </div>
+                
+                <!-- Teachers Image -->
+                <div class="gallery-item-wrapper" data-aos="zoom-in" data-aos-delay="200">
+                    <a href="images/teachers.jpg" data-lightbox="gallery" data-title="Dedicated Teaching Staff - The Heart of Kiba" class="gallery-item">
+                        <img src="images/teachers.jpg" alt="Kiba Teaching Staff" onerror="this.src='https://via.placeholder.com/400x300/0a2f2b/f5c542?text=Teachers'">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span class="gallery-caption">Dedicated Teaching Staff</span>
+                        </div>
+                    </a>
+                    <div class="image-comment">
+                        <i class="fas fa-comment-dots"></i>
+                        <p>Our committed and highly qualified teaching staff work tirelessly to nurture young minds, fostering academic excellence and character development in every student.</p>
+                    </div>
+                </div>
+                
+                <!-- Students with Madam Winnie -->
+                <div class="gallery-item-wrapper" data-aos="zoom-in" data-aos-delay="300">
+                    <a href="images/students having great moments with there teacher madam winnie.jpg" data-lightbox="gallery" data-title="Student-Teacher Bond - Celebrating Success Together" class="gallery-item">
+                        <img src="images/students having great moments with there teacher madam winnie.jpg" alt="Students with Madam Winnie" onerror="this.src='https://via.placeholder.com/400x300/0a2f2b/f5c542?text=Students+with+Madam+Winnie'">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span class="gallery-caption">Celebrating Success Together</span>
+                        </div>
+                    </a>
+                    <div class="image-comment">
+                        <i class="fas fa-comment-dots"></i>
+                        <p>Students celebrating memorable moments with their beloved teacher Madam Winnie, showcasing the strong bond and family atmosphere at Kiba School.</p>
+                    </div>
+                </div>
+                
+                <!-- Rugby Team -->
+                <div class="gallery-item-wrapper" data-aos="zoom-in" data-aos-delay="400">
+                    <a href="images/the rugby crew.jpg" data-lightbox="gallery" data-title="Kiba Rugby Crew - Champions on the Field" class="gallery-item">
+                        <img src="images/the rugby crew.jpg" alt="Kiba Rugby Team" onerror="this.src='https://via.placeholder.com/400x300/0a2f2b/f5c542?text=Rugby+Team'">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span class="gallery-caption">Champions on the Field</span>
+                        </div>
+                    </a>
+                    <div class="image-comment">
+                        <i class="fas fa-comment-dots"></i>
+                        <p>The mighty Kiba Rugby Crew representing the school in regional and national competitions, demonstrating teamwork, discipline, and sportsmanship.</p>
+                    </div>
+                </div>
+                
+                <!-- Science Laboratory -->
+                <div class="gallery-item-wrapper" data-aos="zoom-in" data-aos-delay="500">
+                    <a href="https://via.placeholder.com/800x600/0a2f2b/f5c542?text=Kiba+Science+Lab" data-lightbox="gallery" data-title="State-of-the-Art Science Laboratory" class="gallery-item">
+                        <img src="https://via.placeholder.com/400x300/0a2f2b/f5c542?text=Kiba+Science+Lab" alt="Kiba Science Laboratory">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span class="gallery-caption">State-of-the-Art Science Lab</span>
+                        </div>
+                    </a>
+                    <div class="image-comment">
+                        <i class="fas fa-comment-dots"></i>
+                        <p>Our well-equipped science laboratories provide hands-on learning experiences, preparing students for excellence in KCSE and national science competitions like KSEF.</p>
+                    </div>
+                </div>
+                
+                <!-- Football Team - FIXED with placeholder -->
+                <div class="gallery-item-wrapper" data-aos="zoom-in" data-aos-delay="600">
+                    <a href="https://via.placeholder.com/800x600/0a2f2b/f5c542?text=Kiba+Football+Team" data-lightbox="gallery" data-title="Kiba Football - Western Region Champions" class="gallery-item">
+                        <img src="images/kiba footballl team.jpg" alt="Kiba Football Team" onerror="this.src='https://via.placeholder.com/400x300/0a2f2b/f5c542?text=Football+Team'">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span class="gallery-caption">Western Region Champions</span>
+                        </div>
+                    </a>
+                    <div class="image-comment">
+                        <i class="fas fa-comment-dots"></i>
+                        <p>The Kiba Football Team celebrating their victory as Western Region Champions, showcasing talent, teamwork, and the fighting spirit of our students.</p>
+                    </div>
+                </div>
+                
+                <!-- School Chapel -->
+                <div class="gallery-item-wrapper" data-aos="zoom-in" data-aos-delay="700">
+                    <a href="https://via.placeholder.com/800x600/0a2f2b/f5c542?text=Kiba+Chapel" data-lightbox="gallery" data-title="Sacred Heart Chapel - A Place of Worship and Reflection" class="gallery-item">
+                        <img src="https://via.placeholder.com/400x300/0a2f2b/f5c542?text=Kiba+Chapel" alt="Kiba School Chapel">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span class="gallery-caption">A Place of Worship and Reflection</span>
+                        </div>
+                    </a>
+                    <div class="image-comment">
+                        <i class="fas fa-comment-dots"></i>
+                        <p>Our beautiful chapel stands as a spiritual sanctuary where students gather for daily prayers, mass, and reflection, nurturing their faith and moral values.</p>
+                    </div>
+                </div>
+                
+                <!-- School Library -->
+                <div class="gallery-item-wrapper" data-aos="zoom-in" data-aos-delay="800">
+                    <a href="https://via.placeholder.com/800x600/0a2f2b/f5c542?text=Kiba+Library" data-lightbox="gallery" data-title="Well-Stocked Library - A Hub of Knowledge" class="gallery-item">
+                        <img src="https://via.placeholder.com/400x300/0a2f2b/f5c542?text=Kiba+Library" alt="Kiba School Library">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span class="gallery-caption">A Hub of Knowledge</span>
+                        </div>
+                    </a>
+                    <div class="image-comment">
+                        <i class="fas fa-comment-dots"></i>
+                        <p>Our modern library offers a vast collection of books, journals, and digital resources, supporting academic research and fostering a love for reading.</p>
+                    </div>
+                </div>
+                
+                <!-- KSEF Awards - FIXED with proper fallback -->
+                <div class="gallery-item-wrapper" data-aos="zoom-in" data-aos-delay="600">
+                    <a href="https://via.placeholder.com/800x600/0a2f2b/f5c542?text=Kiba+Football+Team" data-lightbox="gallery" data-title="Kiba Football - Western Region Champions" class="gallery-item">
+                        <img src="images/ksef awards.jpg" alt="science fair Team" onerror="this.src='https://via.placeholder.com/400x300/0a2f2b/f5c542?text=Football+Team'">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span class="gallery-caption">Western Region Champions</span>
+                        </div>
+                    </a>
+                    <div class="image-comment">
+                        <i class="fas fa-comment-dots"></i>
+                        <p>Our students celebrating their outstanding achievements at the Kenya Science and Engineering Fair (KSEF), bringing pride and recognition to Kiba School nationally.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <p>2026 St. Mary's Kibabii Boys National School (Kiba) | National School | Orare et Laborare</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init({ duration: 800, once: true, offset: 100 });
+    </script>
+</body>
+</html>
