@@ -1,151 +1,336 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>Leadership | St. Mary's Kibabii Boys National School | Kiba School Administration</title>
-    <meta name="description" content="Meet the dedicated leadership team at St. Mary's Kibabii Boys National School (Kiba).">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <title>
+      Leadership | St. Mary's Kibabii Boys National School - Principal &
+      Administration
+    </title>
+    <meta
+      name="description"
+      content="Meet the dedicated leadership team at St. Mary's Kibabii Boys National School (Kiba), including the Principal, Deputy Principals, and teaching staff."
+    />
 
-    <canvas id="bgCanvas"></canvas>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="video-background">
+      <video autoplay muted loop playsinline id="bgVideo">
+        <source src="videos/background.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="video-overlay"></div>
 
-    <div id="preloader"><div class="loader"></div></div>
-    <script>(function(){function h(){var p=document.getElementById("preloader");if(p){p.style.transition="opacity 0.5s ease";p.style.opacity="0";setTimeout(function(){p.style.display="none"},500)}}if(document.readyState==="complete")h();else window.addEventListener("load",h);setTimeout(h,2500)})();</script>
+    <audio id="bgAudio" loop preload="auto">
+      <source src="audio/kiba-anthem.mp3.mp3" type="audio/mpeg" />
+    </audio>
 
-    <div class="cursor-dot"></div>
-    <div class="cursor-outline"></div>
-    <button id="theme-toggle" class="theme-toggle"><i class="fas fa-moon"></i></button>
+    <div id="audioControl" class="audio-control">
+      <i class="fas fa-music"></i>
+      <span>School Anthem Playing</span>
+    </div>
+
+    <button id="theme-toggle" class="theme-toggle">
+      <i class="fas fa-moon"></i>
+    </button>
 
     <div class="fab-container">
-        <button class="fab-main" id="fabMain"><i class="fas fa-headset"></i></button>
-        <div class="fab-options">
-            <a href="tel:0734741162" class="fab-option"><i class="fas fa-phone-alt"></i> Call</a>
-            <a href="sms:0734741162" class="fab-option"><i class="fas fa-sms"></i> SMS</a>
-            <a href="https://wa.me/254734741162" class="fab-option"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-            <a href="contact.html" class="fab-option"><i class="fas fa-envelope"></i> Email</a>
-        </div>
+      <button class="fab-main" id="fabMain">
+        <i class="fas fa-headset"></i>
+      </button>
+      <div class="fab-options">
+        <a href="tel:0734741162" class="fab-option"
+          ><i class="fas fa-phone-alt"></i> Call</a
+        >
+        <a href="sms:0734741162" class="fab-option"
+          ><i class="fas fa-sms"></i> SMS</a
+        >
+        <a href="https://wa.me/254734741162" class="fab-option"
+          ><i class="fab fa-whatsapp"></i> WhatsApp</a
+        >
+        <a href="contact.html" class="fab-option"
+          ><i class="fas fa-envelope"></i> Email</a
+        >
+      </div>
     </div>
 
     <nav class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="logo"><i class="fas fa-church"></i> <span>St. Mary's Kibabii</span></a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="leadership.html" class="active">Leadership</a></li>
-                <li><a href="academics.html">Academics</a></li>
-                <li><a href="co-curricular.html">Co-Curricular</a></li>
-                <li><a href="transport.html">Transport</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="testimonials.html">Testimonials</a></li>
-                <li><a href="alumni.html">Alumni</a></li>
-                <li><a href="admissions.html">Admissions</a></li>
-                <li><a href="kida.html">KIDA</a></li>
-                <li><a href="anthem.html">Anthem</a></li>
-                <li><a href="prayer.html">Prayers</a></li>
-                <li><a href="calendar.html">Calendar</a></li>
-                <li><a href="downloads.html">Downloads</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
-        </div>
+      <div class="nav-container">
+        <a href="index.html" class="logo"
+          ><i class="fas fa-church"></i> St. Mary's Kibabii</a
+        >
+        <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="leadership.html" class="active">Leadership</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="co-curricular.html">Co-Curricular</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="alumni.html">Alumni</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="student-portal.html">Portal</a></li>
+        </ul>
+      </div>
     </nav>
 
     <section class="page-hero">
-        <div class="page-hero-overlay"></div>
-        <div class="page-hero-content">
-            <h1>School <span>Leadership</span></h1>
-            <p>Meet Our Dedicated Team at Kiba</p>
-        </div>
+      <h1>School <span>Leadership</span></h1>
+      <p>Meet Our Dedicated Team at Kiba</p>
     </section>
 
     <section class="section">
-        <div class="container">
-            <!-- Principal Section -->
-            <div class="principal-section" data-aos="fade-up" data-aos-duration="1000">
-                <div class="principal-card">
-                    <div class="principal-image-wrapper">
-                        <div class="principal-image">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgDYIyO7GjFePx4DeSxL-eM6WICUQySwqsTQ&s" alt="Dr. Geoffrey Murunga" onerror="this.src='https://via.placeholder.com/400x400/0a2f2b/f5c542?text=Dr.+Geoffrey+Murunga'">
-                        </div>
-                        <div class="principal-badge"><i class="fas fa-crown"></i> Principal</div>
-                    </div>
-                    <div class="principal-info">
-                        <h3 class="principal-name">Dr. Geoffrey Murunga</h3>
-                        <p class="principal-title">Chief Principal, St. Mary's Kibabii Boys National School</p>
-                        <div class="principal-message">
-                            <i class="fas fa-quote-left"></i>
-                            <p>It is my honor to lead this great institution that has produced outstanding leaders in various fields. At St. Mary's Kibabii (Kiba), we are committed to nurturing young men who excel academically, grow spiritually, and develop into responsible citizens.</p>
-                            <i class="fas fa-quote-right"></i>
-                        </div>
-                        <div class="principal-signature">
-                            <span>Dr. Geoffrey Murunga</span>
-                            <small>Chief Principal</small>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="principal-section" data-aos="fade-up">
+          <div class="principal-card">
+            <div class="principal-image">
+              <img
+                src="images/principal.jpg"
+                alt="Dr. Geoffrey Murunga - Principal of Kiba School"
+                onerror="
+                  this.src =
+                    'https://placehold.co/400x500/1a472a/c9a03d?text=Dr.+Geoffrey+Murunga'
+                "
+              />
+              <div class="principal-badge">
+                <i class="fas fa-crown"></i> Principal
+              </div>
             </div>
-
-            <!-- Administration Team -->
-            <h3 class="subsection-title" data-aos="fade-up">Administration <span>Team</span></h3>
-            <div class="admin-grid" data-aos="fade-up">
-                <div class="admin-card">
-                    <div class="admin-image"><img src="https://via.placeholder.com/300x300/0a2f2b/f5c542?text=Mr.+Ndelenji" alt="Deputy Principal Academics"></div>
-                    <h4>Mr. Brian Ndelenji</h4>
-                    <p>Deputy Principal - Academics</p>
-                    <div class="admin-message"><i class="fas fa-quote-left"></i><p>Academic excellence is the cornerstone upon which we build future leaders.</p><i class="fas fa-quote-right"></i></div>
-                    <div class="admin-signature"><span>Mr. Brian Ndelenji</span><small>Deputy Principal - Academics</small></div>
-                    <div class="admin-contact"><a href="mailto:brianndelenji@stmaryskibabii.ac.ke"><i class="fas fa-envelope"></i></a><a href="tel:0722123456"><i class="fas fa-phone"></i></a></div>
-                </div>
-                <div class="admin-card">
-                    <div class="admin-image"><img src="https://via.placeholder.com/300x300/0a2f2b/f5c542?text=Mr.+Kiliswa" alt="Deputy Principal Administration"></div>
-                    <h4>Mr. David Kiliswa</h4>
-                    <p>Deputy Principal - Administration</p>
-                    <div class="admin-message"><i class="fas fa-quote-left"></i><p>Efficient administration and prudent resource management are essential for smooth operation.</p><i class="fas fa-quote-right"></i></div>
-                    <div class="admin-signature"><span>Mr. David Kiliswa</span><small>Deputy Principal - Administration</small></div>
-                    <div class="admin-contact"><a href="mailto:dkiliswa@stmaryskibabii.ac.ke"><i class="fas fa-envelope"></i></a><a href="tel:0723123456"><i class="fas fa-phone"></i></a></div>
-                </div>
-                <div class="admin-card">
-                    <div class="admin-image"><img src="https://via.placeholder.com/300x300/0a2f2b/f5c542?text=Mr.+Simiyu" alt="Deputy Boarding"></div>
-                    <h4>Mr. Antony Simiyu</h4>
-                    <p>Deputy Boarding</p>
-                    <div class="admin-message"><i class="fas fa-quote-left"></i><p>The boarding experience is integral to holistic student development.</p><i class="fas fa-quote-right"></i></div>
-                    <div class="admin-signature"><span>Mr. Antony Simiyu</span><small>Deputy Boarding</small></div>
-                    <div class="admin-contact"><a href="mailto:asimiyu@stmaryskibabii.ac.ke"><i class="fas fa-envelope"></i></a><a href="tel:0724123456"><i class="fas fa-phone"></i></a></div>
-                </div>
-                <div class="admin-card">
-                    <div class="admin-image"><img src="https://via.placeholder.com/300x300/0a2f2b/f5c542?text=Mr.+Maina" alt="Exams Officer"></div>
-                    <h4>Mr. Erick Maina</h4>
-                    <p>Exams Officer</p>
-                    <div class="admin-message"><i class="fas fa-quote-left"></i><p>Examinations are a true measure of academic progress.</p><i class="fas fa-quote-right"></i></div>
-                    <div class="admin-signature"><span>Mr. Erick Maina</span><small>Exams Officer</small></div>
-                    <div class="admin-contact"><a href="mailto:emaina@stmaryskibabii.ac.ke"><i class="fas fa-envelope"></i></a><a href="tel:0725123456"><i class="fas fa-phone"></i></a></div>
-                </div>
+            <div class="principal-info">
+              <h2>Dr. Geoffrey Murunga</h2>
+              <div class="title">
+                Chief Principal, St. Mary's Kibabii Boys National School
+              </div>
+              <div class="message">
+                <i class="fas fa-quote-left"></i>
+                <p>
+                  It is my honor to lead this great institution that has
+                  produced outstanding leaders in various fields. At St. Mary's
+                  Kibabii (Kiba), we are committed to nurturing young men who
+                  excel academically, grow spiritually, and develop into
+                  responsible citizens. Our vision is to maintain our position
+                  as a center of excellence in the country. Together with my
+                  dedicated team of teachers and support staff, we shall
+                  continue to uphold the values of "Orare et Laborare" - Pray
+                  and Work.
+                </p>
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <div class="principal-signature">
+                <span>Dr. Geoffrey Murunga</span>
+                <small>Chief Principal, Kiba School</small>
+              </div>
             </div>
-
-            <!-- Teaching Staff Section - Teacher cards load here -->
-            <h3 class="subsection-title" data-aos="fade-up">Our <span>Teachers</span></h3>
-            <div class="staff-grid" id="staffGrid" data-aos="fade-up"></div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Administration <span>Team</span></h2>
+        <div class="admin-grid">
+          <div class="admin-card" data-aos="flip-left">
+            <div class="admin-image">
+              <img
+                src="https://randomuser.me/api/portraits/men/32.jpg"
+                alt="Mr. Brian Ndelenji"
+              />
+            </div>
+            <h4>Mr. Brian Ndelenji</h4>
+            <div class="title">Deputy Principal - Academics</div>
+            <div class="bio">
+              Oversees curriculum implementation, examinations, and academic
+              performance. Ensures high academic standards across all
+              departments. 18 years of experience in educational leadership.
+            </div>
+          </div>
+          <div class="admin-card" data-aos="flip-left" data-aos-delay="100">
+            <div class="admin-image">
+              <img
+                src="https://randomuser.me/api/portraits/men/45.jpg"
+                alt="Mr. David Kiliswa"
+              />
+            </div>
+            <h4>Mr. David Kiliswa</h4>
+            <div class="title">Deputy Principal - Administration</div>
+            <div class="bio">
+              Manages school operations, discipline, and student welfare.
+              Ensures smooth day-to-day running of the institution. Certified in
+              educational management.
+            </div>
+          </div>
+          <div class="admin-card" data-aos="flip-left" data-aos-delay="200">
+            <div class="admin-image">
+              <img
+                src="https://randomuser.me/api/portraits/men/38.jpg"
+                alt="Mr. Antony Simiyu"
+              />
+            </div>
+            <h4>Mr. Antony Simiyu</h4>
+            <div class="title">Deputy Principal - Boarding</div>
+            <div class="bio">
+              Responsible for all boarding facilities, student accommodation,
+              and extracurricular activities coordination. Oversees 1,200+
+              boarding students.
+            </div>
+          </div>
+          <div class="admin-card" data-aos="flip-left" data-aos-delay="300">
+            <div class="admin-image">
+              <img
+                src="https://randomuser.me/api/portraits/men/41.jpg"
+                alt="Mr. Erick Maina"
+              />
+            </div>
+            <h4>Mr. Erick Maina</h4>
+            <div class="title">Examinations Officer</div>
+            <div class="bio">
+              Manages all internal and national examinations, ensuring integrity
+              and proper administration of tests. KCSE coordinator for 10+
+              years.
+            </div>
+          </div>
+          <div class="admin-card" data-aos="flip-left" data-aos-delay="400">
+            <div class="admin-image">
+              <img
+                src="https://randomuser.me/api/portraits/men/55.jpg"
+                alt="Fr. John Wabomba"
+              />
+            </div>
+            <h4>Fr. John Wabomba</h4>
+            <div class="title">School Chaplain</div>
+            <div class="bio">
+              Leads spiritual formation, daily masses, and pastoral care for
+              students and staff. Provides counseling and guidance to the school
+              community.
+            </div>
+          </div>
+          <div class="admin-card" data-aos="flip-left" data-aos-delay="500">
+            <div class="admin-image">
+              <img
+                src="https://randomuser.me/api/portraits/men/48.jpg"
+                alt="Mr. Peter Wanjala"
+              />
+            </div>
+            <h4>Mr. Peter Wanjala</h4>
+            <div class="title">Chief Security Officer</div>
+            <div class="bio">
+              Ensures safety and security of all students, staff, and school
+              property 24/7. Former police officer with 15 years of security
+              experience.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Our <span>Teaching Staff</span></h2>
+        <div class="staff-grid" id="staffGrid"></div>
+      </div>
     </section>
 
     <footer>
-        <div class="container">
-            <div class="footer-links">
-                <a href="privacy.html">Privacy Policy</a>
-                <a href="terms.html">Terms of Service</a>
-                <a href="contact.html">Contact Us</a>
-            </div>
-            <p>2026 St. Mary's Kibabii Boys National School (Kiba) | National School | Orare et Laborare</p>
+      <div class="container">
+        <div class="footer-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="contact.html">Contact Us</a>
         </div>
+        <p>
+          2026 St. Mary's Kibabii Boys National School (Kiba) | National School
+          | Orare et Laborare
+        </p>
+        <p>Kibabii, Bungoma County, Kenya | 0734-741162 / 0753 028407</p>
+      </div>
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="script.js"></script>
-</body>
+    <script src="js/script.js"></script>
+    <script>
+      AOS.init({ duration: 800, once: true, offset: 100 });
+
+      const staff = [
+        {
+          name: "Mr. Peter Wanyama",
+          subject: "Head of Mathematics",
+          bio: "15+ years of experience. KCSE Mathematics examiner. Known for producing top performers. Holds a Master's in Mathematics Education.",
+          image: "https://randomuser.me/api/portraits/men/22.jpg",
+        },
+        {
+          name: "Madam Winnie Nabwire",
+          subject: "Head of English",
+          bio: "Literature specialist. National debate team coach. Inspiring students to excel in languages. Published author of children's books.",
+          image: "https://randomuser.me/api/portraits/women/28.jpg",
+        },
+        {
+          name: "Mr. James Otieno",
+          subject: "Head of Sciences",
+          bio: "KSEF national coordinator. Led the team to win gold medals in Energy category. PhD in Physics from University of Nairobi.",
+          image: "https://randomuser.me/api/portraits/men/35.jpg",
+        },
+        {
+          name: "Dr. Sarah Mwangi",
+          subject: "Head of Chemistry",
+          bio: "PhD in Chemistry. Published researcher in peer-reviewed journals. Mentors students for international science competitions.",
+          image: "https://randomuser.me/api/portraits/women/42.jpg",
+        },
+        {
+          name: "Mr. Collins Omondi",
+          subject: "Head of Biology",
+          bio: "Specializes in practical biology. Coordinates school environmental club. Wildlife conservation enthusiast.",
+          image: "https://randomuser.me/api/portraits/men/27.jpg",
+        },
+        {
+          name: "Madam Lucy Akinyi",
+          subject: "Head of History",
+          bio: "History and Government specialist. Leads the school debate team to national competitions. Author of local history books.",
+          image: "https://randomuser.me/api/portraits/women/33.jpg",
+        },
+        {
+          name: "Mr. Joseph Kipruto",
+          subject: "Head of Geography",
+          bio: "Geography and Environmental Studies expert. Coordinates field trips and geographical excursions.",
+          image: "https://randomuser.me/api/portraits/men/31.jpg",
+        },
+        {
+          name: "Madam Grace Wanjiku",
+          subject: "Head of Religious Education",
+          bio: "Guides students in spiritual growth and moral formation. Leads daily chapel services and retreats.",
+          image: "https://randomuser.me/api/portraits/women/47.jpg",
+        },
+      ];
+
+      const staffGrid = document.getElementById("staffGrid");
+      if (staffGrid) {
+        staffGrid.innerHTML = staff
+          .map(
+            (t) => `
+                <div class="staff-card">
+                    <div class="staff-image"><img src="${t.image}" alt="${t.name}"></div>
+                    <h4>${t.name}</h4>
+                    <div class="subject">${t.subject}</div>
+                    <div class="bio">${t.bio}</div>
+                </div>
+            `,
+          )
+          .join("");
+      }
+    </script>
+  </body>
 </html>

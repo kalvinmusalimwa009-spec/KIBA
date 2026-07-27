@@ -1,98 +1,224 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    
-    <title>Co-Curricular | St. Mary's Kibabii Boys National School | Kiba Sports & Clubs</title>
-    <meta name="description" content="Co-curricular excellence at St. Mary's Kibabii Boys National School (Kiba). Football champions, music festival finalists, debate quarter-finalists, and more.">
-    <meta name="keywords" content="Kiba Sports, Kibabii Football, Kiba Music Festival, Kiba Debate, St Mary's Kibabii Co-Curricular, Bungoma County Champions">
-    <meta name="author" content="St. Mary's Kibabii Boys National School">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.stmaryskibabii.ac.ke/co-curricular.html">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <title>
+      Co-Curricular | St. Mary's Kibabii Boys National School - Sports, Clubs &
+      Activities
+    </title>
+    <meta
+      name="description"
+      content="Co-curricular excellence at St. Mary's Kibabii Boys National School (Kiba). Football champions, music festival finalists, debate quarter-finalists, and more."
+    />
 
-    <div id="preloader"><div class="loader"></div></div>
-    <script>(function(){function h(){var p=document.getElementById("preloader");if(p){p.style.transition="opacity 0.5s ease";p.style.opacity="0";setTimeout(function(){p.style.display="none"},500)}}if(document.readyState==="complete")h();else window.addEventListener("load",h);setTimeout(h,2500)})();</script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="video-background">
+      <video autoplay muted loop playsinline id="bgVideo">
+        <source src="videos/background.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="video-overlay"></div>
 
-    <div class="cursor-dot"></div>
-    <div class="cursor-outline"></div>
-    <button id="theme-toggle" class="theme-toggle"><i class="fas fa-moon"></i></button>
+    <audio id="bgAudio" loop preload="auto">
+      <source src="audio/kiba-anthem.mp3.mp3" type="audio/mpeg" />
+    </audio>
+
+    <div id="audioControl" class="audio-control">
+      <i class="fas fa-music"></i>
+      <span>School Anthem Playing</span>
+    </div>
+
+    <button id="theme-toggle" class="theme-toggle">
+      <i class="fas fa-moon"></i>
+    </button>
 
     <div class="fab-container">
-        <button class="fab-main" id="fabMain"><i class="fas fa-headset"></i></button>
-        <div class="fab-options">
-            <a href="tel:0734741162" class="fab-option"><i class="fas fa-phone-alt"></i> Call</a>
-            <a href="sms:0734741162" class="fab-option"><i class="fas fa-sms"></i> SMS</a>
-            <a href="https://wa.me/254734741162" class="fab-option"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-            <a href="contact.html" class="fab-option"><i class="fas fa-envelope"></i> Email</a>
-        </div>
+      <button class="fab-main" id="fabMain">
+        <i class="fas fa-headset"></i>
+      </button>
+      <div class="fab-options">
+        <a href="tel:0734741162" class="fab-option"
+          ><i class="fas fa-phone-alt"></i> Call</a
+        >
+        <a href="sms:0734741162" class="fab-option"
+          ><i class="fas fa-sms"></i> SMS</a
+        >
+        <a href="https://wa.me/254734741162" class="fab-option"
+          ><i class="fab fa-whatsapp"></i> WhatsApp</a
+        >
+        <a href="contact.html" class="fab-option"
+          ><i class="fas fa-envelope"></i> Email</a
+        >
+      </div>
     </div>
 
-<nav class="navbar">
-    <div class="nav-container">
-        <a href="index.html" class="logo"><i class="fas fa-church"></i> St. Mary's Kibabii</a>
-        <ul class="nav-links" id="navLinks">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="leadership.html">Leadership</a></li>
-            <li><a href="academics.html">Academics</a></li>
-            <li><a href="co-curricular.html">Co-Curricular</a></li>
-            <li><a href="transport.html">Transport</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="testimonials.html">Testimonials</a></li>
-            <li><a href="alumni.html">Alumni</a></li>
-            <li><a href="admissions.html">Admissions</a></li>
-            <li><a href="kida.html">KIDA</a></li>
-            <li><a href="anthem.html">Anthem</a></li>
-            <li><a href="prayer.html">Prayers</a></li>
-            <li><a href="calendar.html">Calendar</a></li>
-            <li><a href="downloads.html">Downloads</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo"
+          ><i class="fas fa-church"></i> St. Mary's Kibabii</a
+        >
         <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
-    </div>
-</nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="leadership.html">Leadership</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="co-curricular.html" class="active">Co-Curricular</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="alumni.html">Alumni</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="student-portal.html">Portal</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <section class="page-hero">
-        <div class="page-hero-overlay"></div>
-        <div class="page-hero-content">
-            <h1>Co-Curricular <span>Excellence</span></h1>
-            <p>Developing Talents Beyond the Classroom at Kiba</p>
-        </div>
+      <h1>Co-Curricular <span>Excellence</span></h1>
+      <p>Developing Talents Beyond the Classroom at Kiba</p>
     </section>
 
     <section class="section">
-        <div class="container">
-            <div class="co-grid">
-                <div class="co-card" data-aos="flip-left"><i class="fas fa-futbol"></i><h3>Football</h3><p>Western Region Champions 2022, 2023. Famous rivalry with Bungoma High School.</p></div>
-                <div class="co-card" data-aos="flip-left" data-aos-delay="50"><i class="fas fa-music"></i><h3>Music & Drama</h3><p>National Music Festival finalists 2023, 2024. Top honours in choral verse.</p></div>
-                <div class="co-card" data-aos="flip-left" data-aos-delay="100"><i class="fas fa-running"></i><h3>Athletics</h3><p>County champions in 800m, 1500m, and relays. Multiple national qualifiers.</p></div>
-                <div class="co-card" data-aos="flip-left" data-aos-delay="150"><i class="fas fa-microphone-alt"></i><h3>Debate</h3><p>Kenya National Debate Council quarter-finalists 2024.</p></div>
-                <div class="co-card" data-aos="flip-left" data-aos-delay="200"><i class="fas fa-chess"></i><h3>Chess & Scrabble</h3><p>Bungoma County chess champions for 3 consecutive years.</p></div>
-                <div class="co-card" data-aos="flip-left" data-aos-delay="200"><i class="fas fa-rugby"></i><h3>Rugby</h3><p>Bungoma County Rugby champions for 2 consecutive years.</p></div>
-                <div class="co-card" data-aos="flip-left" data-aos-delay="250"><i class="fas fa-hands-helping"></i><h3>Community Service</h3><p>Regular outreach at Kibabii Mission Hospital and environmental clean-ups.</p></div>
-            </div>
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature-card" data-aos="flip-left">
+            <i class="fas fa-futbol"></i>
+            <h3>Football</h3>
+            <p>
+              Western Region Champions 2022, 2023. Famous rivalry with Bungoma
+              High School. Produced several national team players including
+              Benard Mang'oli (AFC Leopards).
+            </p>
+          </div>
+          <div class="feature-card" data-aos="flip-left" data-aos-delay="50">
+            <i class="fas fa-music"></i>
+            <h3>Music & Drama</h3>
+            <p>
+              National Music Festival finalists 2023, 2024. Top honours in
+              choral verse, instrumental performances, and traditional dances.
+              Award-winning drama team.
+            </p>
+          </div>
+          <div class="feature-card" data-aos="flip-left" data-aos-delay="100">
+            <i class="fas fa-running"></i>
+            <h3>Athletics</h3>
+            <p>
+              County champions in 800m, 1500m, and relays. Multiple national
+              qualifiers representing Western Region. State-of-the-art athletics
+              track.
+            </p>
+          </div>
+          <div class="feature-card" data-aos="flip-left" data-aos-delay="150">
+            <i class="fas fa-microphone-alt"></i>
+            <h3>Debate & Public Speaking</h3>
+            <p>
+              Kenya National Debate Council quarter-finalists 2024. Best speaker
+              awards at regional level. Regular participation in Model United
+              Nations.
+            </p>
+          </div>
+          <div class="feature-card" data-aos="flip-left" data-aos-delay="200">
+            <i class="fas fa-chess"></i>
+            <h3>Chess & Scrabble</h3>
+            <p>
+              Bungoma County chess champions for 3 consecutive years. National
+              qualifiers 2023, 2024. Chess club with 50+ active members.
+            </p>
+          </div>
+          <div class="feature-card" data-aos="flip-left" data-aos-delay="250">
+            <i class="fas fa-hands-helping"></i>
+            <h3>Community Service</h3>
+            <p>
+              Regular outreach at Kibabii Mission Hospital, environmental
+              clean-ups, and charity drives. Strong partnership with local
+              churches and NGOs.
+            </p>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <section class="features-section">
+      <div class="container">
+        <h2 class="section-title">Clubs & <span>Societies</span></h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <i class="fas fa-microscope"></i>
+            <h3>Science Club</h3>
+            <p>
+              Hands-on experiments, science congress participation, innovation
+              challenges
+            </p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Computer Club</h3>
+            <p>
+              Coding, web design, robotics, AI workshops, and tech competitions
+            </p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-book"></i>
+            <h3>Literary Club</h3>
+            <p>Creative writing, poetry, book reviews, and journalism</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-tree"></i>
+            <h3>Environmental Club</h3>
+            <p>
+              Tree planting, waste management, conservation awareness campaigns
+            </p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-church"></i>
+            <h3>Christian Union</h3>
+            <p>
+              Prayer meetings, fellowship, retreats, and evangelism outreach
+            </p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-hand-peace"></i>
+            <h3>Peace Club</h3>
+            <p>Conflict resolution, peer counseling, anti-bullying campaigns</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer>
-    <div class="container">
+      <div class="container">
         <div class="footer-links">
-            <a href="privacy.html">Privacy Policy</a>
-            <a href="terms.html">Terms of Service</a>
-            <a href="contact.html">Contact Us</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="contact.html">Contact Us</a>
         </div>
-        <p>2026 St. Mary's Kibabii Boys National School (Kiba) | National School | Orare et Laborare</p>
-    </div>
-</footer>
+        <p>
+          2026 St. Mary's Kibabii Boys National School (Kiba) | National School
+          | Orare et Laborare
+        </p>
+        <p>Kibabii, Bungoma County, Kenya | 0734-741162 / 0753 028407</p>
+      </div>
+    </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="script.js"></script>
-</body>
+    <script src="js/script.js"></script>
+    <script>
+      AOS.init({ duration: 800, once: true, offset: 100 });
+    </script>
+  </body>
 </html>

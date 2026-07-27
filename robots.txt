@@ -8,21 +8,20 @@ Allow: /about.html
 Allow: /leadership.html
 Allow: /academics.html
 Allow: /co-curricular.html
-Allow: /transport.html
 Allow: /gallery.html
-Allow: /testimonials.html
 Allow: /alumni.html
 Allow: /admissions.html
-Allow: /kida.html
 Allow: /contact.html
-Allow: /style.css
-Allow: /script.js
-Allow: /alumni.json
+Allow: /privacy.html
+Allow: /terms.html
+Allow: /student-portal.html
+Allow: /css/
+Allow: /js/
 Allow: /images/
 
+Disallow: /admin/
 Disallow: /private/
 Disallow: /temp/
-Disallow: /backup/
 
 # Sitemap location
 Sitemap: https://www.stmaryskibabii.ac.ke/sitemap.xml

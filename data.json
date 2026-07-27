@@ -1,0 +1,35 @@
+{
+  "visitors": {
+    "count": 12894
+  },
+  "contacts": [],
+  "newsletter": [],
+  "admissions": [],
+  "gallery": [],
+  "galleryCategories": [
+    {
+      "name": "School Events",
+      "slug": "events"
+    },
+    {
+      "name": "Sports",
+      "slug": "sports"
+    },
+    {
+      "name": "Academics",
+      "slug": "academics"
+    },
+    {
+      "name": "Facilities",
+      "slug": "facilities"
+    },
+    {
+      "name": "Staff & Students",
+      "slug": "staff-students"
+    },
+    {
+      "name": "Alumni",
+      "slug": "alumni"
+    }
+  ]
+}

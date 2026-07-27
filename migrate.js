@@ -1,0 +1,1 @@
+const fs = require('fs'); const db = require('./database.js'); const sql = fs.readFileSync('./migrations/create_tables.sql', 'utf8'); db.exec(sql, (err) = if(err) console.error(err); else console.log('Tables created'); db.close(); }); 
