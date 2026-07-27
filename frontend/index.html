@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <title>
+      St. Mary's Kibabii Boys National School | Kiba - Home of the Kibabiian
+    </title>
+    <meta
+      name="description"
+      content="St. Mary's Kibabii Boys National School (Kiba) - Premier National School in Bungoma County. Excellence in KCSE, KSEF Science Fair, and character formation since 1952."
+    />
+    <meta
+      name="keywords"
+      content="Kiba, Kibabii, St Mary's Kibabii, National School Bungoma, KCSE Top School"
+    />
+    <meta name="author" content="St. Mary's Kibabii Boys National School" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="video-background">
+      <video autoplay muted loop playsinline id="bgVideo">
+        <source src="videos/background.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+    <div class="video-overlay"></div>
+
+    <audio id="bgAudio" loop preload="auto">
+      <source src="audio/kiba-anthem.mp3.mp3" type="audio/mpeg" />
+    </audio>
+
+    <div id="audioControl" class="audio-control">
+      <i class="fas fa-music" id="audioIcon"></i>
+      <span id="audioText">School Anthem Playing</span>
+    </div>
+
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      aria-label="Toggle dark mode"
+    >
+      <i class="fas fa-moon"></i>
+    </button>
+
+    <div class="fab-container">
+      <button class="fab-main" id="fabMain" aria-label="Contact options">
+        <i class="fas fa-headset"></i>
+      </button>
+      <div class="fab-options">
+        <a href="tel:0734741162" class="fab-option"
+          ><i class="fas fa-phone-alt"></i> Call Us</a
+        >
+        <a href="sms:0734741162" class="fab-option"
+          ><i class="fas fa-sms"></i> SMS Us</a
+        >
+        <a href="https://wa.me/254734741162" class="fab-option" target="_blank"
+          ><i class="fab fa-whatsapp"></i> WhatsApp</a
+        >
+        <a href="contact.html" class="fab-option"
+          ><i class="fas fa-envelope"></i> Email Us</a
+        >
+        <a href="admissions.html" class="fab-option"
+          ><i class="fas fa-graduation-cap"></i> Admissions</a
+        >
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo">
+          <i class="fas fa-church"></i> St. Mary's Kibabii
+        </a>
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="leadership.html">Leadership</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="co-curricular.html">Co-Curricular</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="alumni.html">Alumni</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="student-portal.html">Portal</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-badge">Home of the Kibabiian</div>
+        <h1>St. Mary's Kibabii <span>Boys National School</span></h1>
+        <p>
+          Inspired by faith and excellence, our students are at the heart of a
+          protected learning community where they are nurtured, guided, and
+          prepared for global leadership.
+        </p>
+        <div class="hero-buttons">
+          <a href="#welcome" class="btn-primary">Discover Kiba</a>
+          <a href="admissions.html" class="btn-outline">Apply Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="welcome" class="welcome-section">
+      <div class="container">
+        <div class="welcome-grid">
+          <div class="welcome-content" data-aos="fade-right">
+            <h2>Welcome to <span>St. Mary's Kibabii</span></h2>
+            <p>
+              Founded in 1952 by Catholic missionaries, St. Mary's Kibabii Boys
+              National School (affectionately known as "Kiba") stands as a
+              beacon of academic excellence and character formation in Bungoma
+              County.
+            </p>
+            <p>
+              Our commitment to holistic education has produced leaders who have
+              excelled in politics, medicine, engineering, academia, and sports.
+              The school's motto,
+              <strong>"Orare et Laborare" (Pray and Work)</strong>, encapsulates
+              our philosophy of balancing spiritual growth with academic rigor.
+            </p>
+            <a href="about.html" class="btn-primary">Learn More About Kiba →</a>
+          </div>
+          <div class="welcome-video" data-aos="fade-left">
+            <iframe
+              src="https://www.youtube.com/embed/aMNMPDDEAvw"
+              title="Kiba Welcome Video"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+              "
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-section">
+      <div class="container">
+        <h2 class="section-title">Why <span>Choose Kiba</span>?</h2>
+        <div class="features-grid">
+          <div class="feature-card" data-aos="flip-left">
+            <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+            <h3>Academic Excellence</h3>
+            <p>
+              Mean score of 8.93 in KCSE 2022. Ranked 85th nationally among
+              10,000+ schools. Consistent top performer in Bungoma County for
+              over a decade.
+            </p>
+          </div>
+          <div class="feature-card" data-aos="flip-left" data-aos-delay="100">
+            <div class="feature-icon"><i class="fas fa-microscope"></i></div>
+            <h3>KSEF Champions</h3>
+            <p>
+              National gold medals in Energy & Robotics. Represented Kenya at
+              international science fairs. Innovation at our core.
+            </p>
+          </div>
+          <div class="feature-card" data-aos="flip-left" data-aos-delay="200">
+            <div class="feature-icon"><i class="fas fa-futbol"></i></div>
+            <h3>Sports Dynasty</h3>
+            <p>
+              Western Region football champions 2022 & 2023. Rugby 7s,
+              basketball, athletics stars. We produce national athletes.
+            </p>
+          </div>
+          <div class="feature-card" data-aos="flip-left" data-aos-delay="300">
+            <div class="feature-icon"><i class="fas fa-church"></i></div>
+            <h3>Catholic Values</h3>
+            <p>
+              Daily mass, chaplaincy programs, strong moral foundation. We build
+              men of character, faith, and integrity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-section">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <h3 class="counter" data-target="1952">0</h3>
+            <p>Year Founded</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="counter" data-target="1600">0</h3>
+            <p>Current Students</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="counter" data-target="85">0</h3>
+            <p>Teaching Staff</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="counter" data-target="47">0</h3>
+            <p>Counties Represented</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container">
+        <h2>Join the Legacy of Excellence</h2>
+        <p>
+          Become part of a community that nurtures leaders, champions, and men
+          of integrity.
+        </p>
+        <div class="cta-buttons">
+          <a href="admissions.html" class="btn-primary">Apply for Admission</a>
+          <a href="contact.html" class="btn-outline"
+            >Contact Admissions Office</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="admissions.html">Admissions</a>
+        </div>
+        <p>
+          2026 St. Mary's Kibabii Boys National School (Kiba) | National School
+          | Orare et Laborare
+        </p>
+        <p>Kibabii, Bungoma County, Kenya | 0734-741162 / 0753 028407</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      AOS.init({ duration: 800, once: true, offset: 100 });
+    </script>
+  </body>
+</html>

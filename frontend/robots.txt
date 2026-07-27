@@ -1,0 +1,33 @@
+# robots.txt for St. Mary's Kibabii Boys National School (Kiba)
+# Website: https://www.stmaryskibabii.ac.ke
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /about.html
+Allow: /leadership.html
+Allow: /academics.html
+Allow: /co-curricular.html
+Allow: /gallery.html
+Allow: /alumni.html
+Allow: /admissions.html
+Allow: /contact.html
+Allow: /privacy.html
+Allow: /terms.html
+Allow: /student-portal.html
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Sitemap location
+Sitemap: https://www.stmaryskibabii.ac.ke/sitemap.xml
+
+# Crawl delay to be respectful to the server
+Crawl-delay: 1
+
+# Host directive
+Host: www.stmaryskibabii.ac.ke

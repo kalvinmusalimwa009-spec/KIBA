@@ -1,0 +1,88 @@
+{
+  "alumni": [
+    {
+      "name": "Hon. Ken Lusaka",
+      "category": "Politics & Government",
+      "year": 1982,
+      "bio": "First Speaker of the Bungoma County Assembly and former Governor of Bungoma County.",
+      "image": "https://placehold.co/300x200/1a472a/c9a03d?text=Ken+Lusaka"
+    },
+    {
+      "name": "Hon. Wafula Wamunyinyi",
+      "category": "Politics & Government",
+      "year": 1983,
+      "bio": "Member of Parliament for Kanduyi Constituency and former Minister.",
+      "image": "https://placehold.co/300x200/1a472a/c9a03d?text=Wafula+Wamunyinyi"
+    },
+    {
+      "name": "Dr. Moses Sichei",
+      "category": "Medicine",
+      "year": 1985,
+      "bio": "Renowned Medical Doctor and UNDP Consultant specializing in public health.",
+      "image": "https://placehold.co/300x200/1a472a/c9a03d?text=Dr.+Moses+Sichei"
+    },
+    {
+      "name": "Prof. Cornelius Wanjala",
+      "category": "Academia",
+      "year": 1984,
+      "bio": "Professor of Chemistry at South Eastern Kenya University (SEKU).",
+      "image": "https://placehold.co/300x200/1a472a/c9a03d?text=Prof.+Cornelius+Wanjala"
+    },
+    {
+      "name": "Benard Mang'oli",
+      "category": "Sports",
+      "year": 2015,
+      "bio": "Professional footballer, midfielder for AFC Leopards in the Kenyan Premier League.",
+      "image": "https://placehold.co/300x200/1a472a/c9a03d?text=Benard+Mangoli"
+    },
+    {
+      "name": "Tim Wanyonyi",
+      "category": "Politics & Government",
+      "year": 1990,
+      "bio": "Member of Parliament for Westlands Constituency, Nairobi.",
+      "image": "https://placehold.co/300x200/1a472a/c9a03d?text=Tim+Wanyonyi"
+    },
+    {
+      "name": "Dr. John Makali",
+      "category": "Business",
+      "year": 1988,
+      "bio": "CEO of Makali Holdings, leading entrepreneur in Western Kenya.",
+      "image": "https://placehold.co/300x200/1a472a/c9a03d?text=Dr.+John+Makali"
+    },
+    {
+      "name": "Eng. Peter Simiyu",
+      "category": "Engineering",
+      "year": 1992,
+      "bio": "Chief Engineer at Kenya Railways, leading infrastructure projects.",
+      "image": "https://placehold.co/300x200/1a472a/c9a03d?text=Eng.+Peter+Simiyu"
+    },
+    {
+      "name": "Hon. Catherine Wambilianga",
+      "category": "Politics & Government",
+      "year": 1991,
+      "bio": "Former Member of Parliament for Bungoma County.",
+      "image": "https://placehold.co/300x200/1a472a/c9a03d?text=Catherine+Wambilianga"
+    },
+    {
+      "name": "Dr. Allan Wekesa",
+      "category": "Medicine",
+      "year": 1995,
+      "bio": "Consultant Surgeon at Kenyatta National Hospital.",
+      "image": "https://placehold.co/300x200/1a472a/c9a03d?text=Dr.+Allan+Wekesa"
+    },
+    {
+      "name": "Prof. Mary Nabwire",
+      "category": "Academia",
+      "year": 1986,
+      "bio": "Professor of Economics at University of Nairobi.",
+      "image": "https://placehold.co/300x200/1a472a/c9a03d?text=Prof.+Mary+Nabwire"
+    },
+    {
+      "name": "Vincent Muyela",
+      "category": "Sports",
+      "year": 2012,
+      "bio": "Kenyan International Rugby Player, represented Kenya at World Cup Sevens.",
+      "image": "https://placehold.co/300x200/1a472a/c9a03d?text=Vincent+Muyela"
+    }
+  ]
+}

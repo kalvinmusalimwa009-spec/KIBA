@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Student Portal | Kiba x Zeraki - St. Mary's Kibabii Boys National School
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        background: linear-gradient(135deg, #1a472a, #0d2b1a);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+      .portal-card {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        padding: 3rem;
+        text-align: center;
+        max-width: 500px;
+        width: 90%;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+      .portal-icon {
+        font-size: 4rem;
+        color: #c9a03d;
+        margin-bottom: 1rem;
+      }
+      h1 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+      }
+      .btn-zeraki {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        background: #c9a03d;
+        color: #1a472a;
+        padding: 1rem 2rem;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1.1rem;
+        margin: 1rem 0;
+        transition: 0.3s;
+      }
+      .btn-zeraki:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        background: #b08a2e;
+      }
+      .btn-back {
+        color: white;
+        text-decoration: none;
+        opacity: 0.7;
+        font-size: 0.9rem;
+      }
+      .btn-back:hover {
+        opacity: 1;
+      }
+      .info-note {
+        font-size: 0.8rem;
+        margin-top: 1.5rem;
+        opacity: 0.6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="portal-card">
+      <div class="portal-icon"><i class="fas fa-chalkboard-user"></i></div>
+      <h1>Kiba Student Portal</h1>
+      <p>
+        Access your results, timetable, attendance, and fee balance via
+        <strong>Zeraki</strong>.
+      </p>
+      <a
+        href="https://app.zeraki.co.ke/login"
+        target="_blank"
+        class="btn-zeraki"
+      >
+        <i class="fas fa-external-link-alt"></i> Go to Zeraki Portal
+      </a>
+      <br />
+      <a href="index.html" class="btn-back"
+        ><i class="fas fa-arrow-left"></i> Back to Home</a
+      >
+      <div class="info-note">
+        Use your school-provided Zeraki credentials to log in. Contact the
+        school if you need assistance.
+      </div>
+    </div>
+  </body>
+</html>
